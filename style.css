@@ -1,3 +1,29 @@
 *{
   text-align: center;
 }
+
+.logincontainer { 
+  margin: 100px 100px 100px 100px;
+  border-style: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.logincontainer > div {
+  width: 50%;
+}
+
+#background {
+    width: 100%;
+    height:fit-content;
+    background-size: cover;
+    background-position: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsdYN6ro0sXo0tAhfvBSJnPcG9hhuPgtt3sA&s);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logincredentials {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
