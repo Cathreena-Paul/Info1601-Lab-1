@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Login Page</title>
-</head>
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>This is my first website</h1>
+        </header>
 
-<body style="background: radial-gradient(circle, #b22fd3, #792fd3 );">
+        <article>
+            <section>
+                <h2>Welcome</h2>
+            </section>
 
-    <div class="logincontainer">
-        <div id="background">
-            <h1 style="background-color: #ffffff;">"Welcome!</h1>
-            <br> <br>
-            <p style="background-color: #ffffff;">"We are so happy to see you again!</p>
-        </div>
+           <section>
+                <figure>
+                    <img src="https://i.pinimg.com/736x/46/83/cf/4683cf90d04118fa8bd6d80126b50132.jpg" alt="a random cat" width="300px" height="300px">
+                    <figcaption>Fig 1. A random cat</figcaption>
+                </figure>
+           </section>
 
-        <div id="logincredentials">
-             <p> "Welcome back! 😊 We're glad to see you again. Log in to access your account and pick up right where you left off. Enter your details below, and if you need any help, we're here for you! 🙌✨"</p>
-        </div>
+           <section>
+               <details>
+                   <summary>Hobbies</summary>
+                   <ul>
+                    <li>Swimming</li>
+                    <li>Coding</li>
+                    <li>Music</li>
+                    <li>Memeing</li>
+                </ul>
+               </details>
+            </section>
 
-    </div>
-    
-</body>
-</html>
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+
+        </article>
+           
+    </body>
+<html>
